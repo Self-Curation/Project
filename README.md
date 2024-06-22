@@ -4,7 +4,7 @@
 
 ----
 
-We propose a Self-Curation method of training data that enhances preference learning by leveraging in-distribution trained proxy models.
+We propose a simple yet effective Self-Curation method for training data that enhances preference learning by leveraging in-distribution trained proxy models.
 
 
 <p align='center'>
