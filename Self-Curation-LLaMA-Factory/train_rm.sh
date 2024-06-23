@@ -1,0 +1,19 @@
+accelerate launch --config_file ./config.yaml src/train_bash.py \
+    --stage rm \
+    --model_name_or_path meta-llama/Llama-2-7b-chat-hf \
+    --do_train \
+    --dataset preference_dataset_name \
+    --template llama2 \
+    --finetuning_type lora \
+    --lora_target q_proj,v_proj,k_proj,o_proj \
+    --resume_lora_training False \
+    --output_dir path_to_rm_checkpoint \
+    --per_device_train_batch_size 8 \
+    --gradient_accumulation_steps 4 \
+    --lr_scheduler_type cosine \
+    --logging_steps 10 \
+    --save_steps 10000 \
+    --learning_rate 1e-5 \
+    --num_train_epochs 1.0 \
+    --plot_loss \
+    --fp16
