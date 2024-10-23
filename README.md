@@ -8,7 +8,7 @@ We propose a simple yet effective Self-Curation method for training data that en
 
 
 <p align='center'>
-<img src="./figure/self_curation_flow.png"  width="400" height="600" center-align="true">
+<img src="./figure/self_curation_flow.png"  width="400" height="500" center-align="true">
 <div align="center"><b>The proposed self-curation method </b></div>
 </p>
 
@@ -16,7 +16,7 @@ We propose a simple yet effective Self-Curation method for training data that en
 <summary>Comparing Direct Preference Optimization (DPO) with Self-Curation to DPO without curation</summary>
 
 <p align='center'>
-<img src="./figure/improvement.png"  width="1000" height="200" center-align="true">
+<img src="./figure/improvement.png"  width="800" height="200" center-align="true">
 <div align="center"><b>DPO with Self-Curation significantly and consistently surpasses DPO without curation</b></div>
 </p>
 </details>
