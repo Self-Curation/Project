@@ -13,7 +13,7 @@ We propose a simple yet effective Self-Curation method for training data that en
 </p>
 
 <details>
-<summary>Comparing Direct Preference Optimization (DPO) with Self-Curation to DPO without curation</summary>
+<summary>Comparing Direct Preference Optimization (DPO) and its variants (cDPO and rDPO) with Self-Curation to no curation</summary>
 
 <p align='center'>
 <img src="./figure/improvement.png"  width="1000" height="220" center-align="true">
