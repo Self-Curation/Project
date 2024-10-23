@@ -8,7 +8,7 @@ We propose a simple yet effective Self-Curation method for training data that en
 
 
 <p align='center'>
-<img src="./figure/self_curation_flow.png"  width="400" height="500" center-align="true">
+<img src="./figure/self_curation_flow.png"  width="400" height="450" center-align="true">
 <div align="center"><b>The proposed self-curation method </b></div>
 </p>
 
