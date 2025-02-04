@@ -22,6 +22,13 @@ We propose a simple yet effective Self-Curation method for training data that en
 </details>
 
 ## Citation
-```
-TBA
-```
+@misc{<br>
+lee2025preferenceconsistencymattersenhancing,<br>
+      title={Preference Consistency Matters: Enhancing Preference Learning in Language Models with Automated Self-Curation of Training Corpora}, <br>
+      author={JoonHo Lee and JuYoun Son and Juree Seok and Wooseok Jang and Yeong-Dae Kwon}, <br>
+      year={2025}, <br>
+      eprint={2408.12799}, <br>
+      archivePrefix={arXiv}, <br>
+      primaryClass={cs.CL}, <br>
+      url={https://arxiv.org/abs/2408.12799},  <br>
+}
